@@ -1,6 +1,6 @@
 // === ES modules with import/export ===
 
-import { fetchUsers } from "./api";
+import { fetchUsers } from "./api.js";
 
 const showUsers = async () => {
     const users = await fetchUsers();
